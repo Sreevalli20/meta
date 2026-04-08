@@ -1,0 +1,11 @@
+name: customer-support-env
+description: Real-world customer support ticket resolution environment
+tasks:
+  - easy
+  - medium
+  - hard
+action_space:
+  type: text
+observation_space:
+  type: structured
+reward_range: [0.0, 1.0]
